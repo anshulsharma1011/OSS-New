@@ -1,0 +1,20 @@
+.side_nav{
+    position: fixed;
+    height: 100%;
+    box-shadow: 2px 2px 10px black;
+}
+.side_nav img{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.side_nav .btn-primary{
+    background-color: black;
+    border-color: #893872;
+}
+
+.team-content .img-fluid{
+    box-shadow: 2px 2px 15px black;
+}
+.team-content span{
+    font-size: 12px;
+}

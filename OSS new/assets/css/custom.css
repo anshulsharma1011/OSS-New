@@ -1,0 +1,260 @@
+html{
+    overflow: scroll;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+@font-face {
+    font-family: SanFranciscoSemiBold;
+    src: url('../fonts/San/SanFranciscoDisplay-Semibold.otf');
+}
+
+@font-face{
+    font-family: SanFranciscoThin;
+    src: url('../fonts/San/SanFranciscoDisplay-Thin.otf')
+}
+
+@font-face {
+    font-family: SanFranciscoRegular;
+    src: url('../fonts/San/SanFranciscoDisplay-Regular.otf');
+}
+.my-2p{ margin-top: 2%; margin-bottom: 2% }
+.my-10p{ margin-top: 10%; margin-bottom: 10%;}
+.my-15p{ margin-top: 15%; margin-bottom: 15%;}
+.my-20p{ margin-top: 20%; margin-bottom: 20%;}
+.my-5p{ margin-top: 5%; margin-bottom: 5% }
+.top-margin-10p{ margin-top: 10%}
+.top-margin-15p{ margin-top: 15%}
+.top-margin-20p{ margin-top: 20%}
+.left-margin-15{ margin-left: 15px; }
+.top-margin-15{ margin-top: 15px; }
+.top-margin-20{ margin-top: 20px; }
+.top-margin-25{ margin-top: 25px; }
+.top-margin-30{ margin-top: 30px; }
+.top-margin-50{ margin-top: 50px; }
+.top-margin-60{ margin-top: 60px; }
+.top-margin-70{ margin-top: 70px; }
+.top-margin-80{ margin-top: 80px; }
+
+.top-padding-30{ padding-top:30px; }
+.top-padding-50{ padding-top:50px; }
+
+.text-custom{ color:#c1e9d7; }
+.distorted{ margin-top:150px; }
+.logo{ margin-top:10% }
+.logo_small{ margin-top:8%; height: 100%; width:90% }
+.ossrd{ display: none; }
+
+.main-menu {
+    /*display: none;*/
+}
+
+.main-menu li a:hover{ color: #893872; }
+
+.navigation{
+    position:fixed;
+    bottom: 0;
+    z-index: 999;
+    /*display: inline-block;*/
+}
+
+.banner{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.main-menu .nav-link{
+    background-color: inherit;
+    border: 1px solid #893872;
+    border-radius:5px;
+}
+
+.main-menu .nav-link:hover{
+    border: 1px solid #c1e9d7;
+}
+
+.banner .nav-pills .nav-link.active,.nav-pills .show>.nav-link{
+    background-color:inherit;!important;
+}
+
+
+.preloading-screen{
+    position: fixed;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    left:0;
+    top:0;
+}
+
+.technologies, .projects, .events, .contact{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    /*background-color: red;*/
+}
+
+.about, .team{
+    position: relative;
+    width: 100%;
+}
+.team h1, .team-content h1, .alumini-content h1{
+    font-family: SanFranciscoSemiBold;
+}
+.about h1, .technologies h1, .projects h1, .events h1, .contact h1{
+    font-family: SanFranciscoSemiBold;
+    font-size:35px;
+    text-align: center;
+}
+.about-content{
+    font-family: SanFranciscoThin;
+    font-size: 20px;
+    text-align: center;
+}
+.about-content h3, .technologies h3, .projects h3, .team h3, .events h3, .contact h3, .team-content h3, .alumini-content h3{
+    text-align: center;
+    font-family: SanFranciscoRegular;
+}
+.about-content .text-custom{
+    color: #28084b;
+}
+
+.about-content a:hover{
+    color: #c1e9d7;
+}
+
+#more_members, .show-tech, .about-content .nav-link{
+    background-color: inherit;
+    border: 1px solid #893872;
+    border-radius:5px;
+}
+
+.about-content .nav-link:hover{
+    border: 1px solid #893872;
+}
+
+#about_more h4, .team h4, .alumini-content h5{
+    font-family: SanFranciscoRegular;
+}
+
+#about_more h6, .team h6, .alumini-content h6{
+    font-family: SanFranciscoThin;
+}
+
+#about_more .nav-fill .nav-link{
+    padding: 0;!important;
+    margin: 0;
+}
+
+.show-tech{
+    position:relative;
+}
+
+.carousel-indicators{
+    bottom:-40px;
+}
+
+.carousel-indicators li{
+    background-color:#893872;
+}
+.carousel-indicators .active{
+    background-color: black;
+}
+.carousel-item h4, h6{
+    text-align: center;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    color: black;
+}
+
+.carousel-control-prev:focus, .carousel-control-prev:hover,
+.carousel-control-next:focus,
+.carousel-control-next:hover{
+    color: black;
+}
+
+.test1{
+    background-color: blue;
+}
+.test2{
+    background-color: red;
+}
+.test3{
+    background-color: black ;
+}
+.up-button{
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    height:50px;
+    width:50px;
+    margin-right: 20px;
+}
+.profile_links{
+    background-color: rgba(0,0,0,0.5);
+    /*width: 100%;*/
+    /*height:100%;*/
+    opacity: 0;
+
+}
+.mamta{
+    background-image: url("../images/faculties/mamta.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+.arun{
+    background-image: url("../images/faculties/arun.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+.sonam{
+    background-image: url("../images/faculties/sonam.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+.deepak{
+    background-image: url("../images/faculties/deepak.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+.abhishek{
+    background-image: url("../images/faculties/abhishek.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+.lipika{
+    background-color: greenyellow;
+    /*background-image: url("../images/faculties/arun.jpg");*/
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+.garima{
+    background-color: greenyellow;
+    /*background-image: url("../images/faculties/arun.jpg");*/
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+
+.team{
+    height:80%;
+    background-image: url("../images/members/flex.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+    /*background-size: 100% 50%;*/
+}
+
+.team .btn-primary{
+    background-color: black;
+    border-radius: 200px;
+}
